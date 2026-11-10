@@ -1,13 +1,16 @@
 # Выделение txmlconnector-native из txmlconnector
 
-Дата: 2026-11-10. Источник: `github.com/kmlebedev/txmlconnector`, `main` `761ae8b`.
+Дата: 2026-11-10. Источник: `github.com/kmlebedev/txmlconnector`, `main` `61b6289` (PR #72).
 Цель: `github.com/kmlebedev/txmlconnector-native` (публичный; на старте — `Initial commit` с LICENSE MIT).
 
 ## Что перенесено (с историей)
 
 История перенесённых путей сохранена `git filter-repo --path … --path-rename client/commands/:commands/`
-(292 коммита, авторы и даты сохранены) и слита с `Initial commit` нового репозитория
-(`--allow-unrelated-histories`). Теги исходного репозитория (`v0.0x`, `compat-v1.0.0*`) не перенесены:
+(авторы и даты сохранены; рабочий email автора заменён на `…@users.noreply.github.com`, как и в
+истории `origin/main` txmlconnector) и слита с `Initial commit` нового репозитория
+(`--allow-unrelated-histories`). Изменения, вошедшие в `origin/main` после снимка (`0312bf3` — только
+`docs/protocol/alltrades.md`, `765bac3` SecuritiesAdded), перенесены `git am` с исходным авторством;
+содержимое перенесённых путей сверено с `61b6289` (`diff -r` после замены import-путей). Теги исходного репозитория (`v0.0x`, `compat-v1.0.0*`) не перенесены:
 у нового модуля своя линейка версий.
 
 | Было (txmlconnector) | Стало |
