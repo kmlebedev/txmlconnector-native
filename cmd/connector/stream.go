@@ -12,8 +12,8 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/kmlebedev/txmlconnector/cmd/connector/internal/dlllog"
-	"github.com/kmlebedev/txmlconnector/native"
+	"github.com/kmlebedev/txmlconnector-native/cmd/connector/internal/dlllog"
+	"github.com/kmlebedev/txmlconnector-native/native"
 )
 
 // tradeStreams writes the _ts.log records of the TCP connections (O: header,

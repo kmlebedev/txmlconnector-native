@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/kmlebedev/txmlconnector/client/commands"
+	"github.com/kmlebedev/txmlconnector-native/commands"
 )
 
 // TestConnectorSecuritiesOnLoad checks the DLL callback order on connect:

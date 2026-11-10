@@ -3,8 +3,8 @@ package records
 import (
 	"fmt"
 
-	"github.com/kmlebedev/txmlconnector/native/model"
-	"github.com/kmlebedev/txmlconnector/native/wire"
+	"github.com/kmlebedev/txmlconnector-native/native/model"
+	"github.com/kmlebedev/txmlconnector-native/native/wire"
 )
 
 // SecPositionFromAsset builds the <sec_position> of a R_CLIENT_ASSET record with

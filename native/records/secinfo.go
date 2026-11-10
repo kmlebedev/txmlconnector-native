@@ -6,8 +6,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/kmlebedev/txmlconnector/native/model"
-	"github.com/kmlebedev/txmlconnector/native/wire"
+	"github.com/kmlebedev/txmlconnector-native/native/model"
+	"github.com/kmlebedev/txmlconnector-native/native/wire"
 )
 
 // specField is the wire type of one RQ_SEC_SPEC mask bit.

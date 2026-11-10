@@ -3,8 +3,8 @@ package records_test
 import (
 	"testing"
 
-	"github.com/kmlebedev/txmlconnector/native/records"
-	"github.com/kmlebedev/txmlconnector/native/wire"
+	"github.com/kmlebedev/txmlconnector-native/native/records"
+	"github.com/kmlebedev/txmlconnector-native/native/wire"
 )
 
 // TestParseSecMktPermit pins the R_SEC_MKT_PERMIT (0x0e) body: W secid, B val.

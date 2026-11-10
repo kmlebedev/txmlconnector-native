@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/kmlebedev/txmlconnector/native/model"
-	"github.com/kmlebedev/txmlconnector/native/wire"
+	"github.com/kmlebedev/txmlconnector-native/native/model"
+	"github.com/kmlebedev/txmlconnector-native/native/wire"
 )
 
 // TagCandles is R_HISTORY (0x09), the <candles> data of gethistorydata.

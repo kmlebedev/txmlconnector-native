@@ -3,7 +3,7 @@ package records
 import (
 	"fmt"
 
-	"github.com/kmlebedev/txmlconnector/native/wire"
+	"github.com/kmlebedev/txmlconnector-native/native/wire"
 )
 
 // TagMessage is R_MSG (0x01): an unsized record with variable C-strings

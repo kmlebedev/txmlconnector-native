@@ -15,9 +15,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/kmlebedev/txmlconnector/native/cryptoprofile"
-	"github.com/kmlebedev/txmlconnector/native/session"
-	"github.com/kmlebedev/txmlconnector/native/wire"
+	"github.com/kmlebedev/txmlconnector-native/native/cryptoprofile"
+	"github.com/kmlebedev/txmlconnector-native/native/session"
+	"github.com/kmlebedev/txmlconnector-native/native/wire"
 )
 
 // Login and Password are the credentials the server expects; the password also

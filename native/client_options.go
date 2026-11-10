@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/kmlebedev/txmlconnector/native/model"
-	"github.com/kmlebedev/txmlconnector/native/records"
-	"github.com/kmlebedev/txmlconnector/native/session"
+	"github.com/kmlebedev/txmlconnector-native/native/model"
+	"github.com/kmlebedev/txmlconnector-native/native/records"
+	"github.com/kmlebedev/txmlconnector-native/native/session"
 )
 
 // Options API (task 27). The request payloads are D+O; the data/XML forms are

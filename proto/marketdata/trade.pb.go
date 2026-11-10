@@ -228,7 +228,7 @@ const file_proto_marketdata_trade_proto_rawDesc = "" +
 	"\x04Side\x12\x14\n" +
 	"\x10SIDE_UNSPECIFIED\x10\x00\x12\f\n" +
 	"\bSIDE_BUY\x10\x01\x12\r\n" +
-	"\tSIDE_SELL\x10\x02B5Z3github.com/kmlebedev/txmlconnector/proto/marketdatab\x06proto3"
+	"\tSIDE_SELL\x10\x02B<Z:github.com/kmlebedev/txmlconnector-native/proto/marketdatab\x06proto3"
 
 var (
 	file_proto_marketdata_trade_proto_rawDescOnce sync.Once

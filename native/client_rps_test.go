@@ -5,10 +5,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/kmlebedev/txmlconnector/native/model"
-	"github.com/kmlebedev/txmlconnector/native/session"
-	"github.com/kmlebedev/txmlconnector/native/wire"
-	"github.com/kmlebedev/txmlconnector/native/xmlcompat"
+	"github.com/kmlebedev/txmlconnector-native/native/model"
+	"github.com/kmlebedev/txmlconnector-native/native/session"
+	"github.com/kmlebedev/txmlconnector-native/native/wire"
+	"github.com/kmlebedev/txmlconnector-native/native/xmlcompat"
 )
 
 // rpsOrderPayloadExpected builds the O payloads literally (client id comes from

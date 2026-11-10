@@ -3,7 +3,7 @@ package records
 import (
 	"fmt"
 
-	"github.com/kmlebedev/txmlconnector/native/wire"
+	"github.com/kmlebedev/txmlconnector-native/native/wire"
 )
 
 // Record tags of the end of the load (task 7).

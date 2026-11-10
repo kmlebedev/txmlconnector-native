@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/kmlebedev/txmlconnector/native/wire"
+	"github.com/kmlebedev/txmlconnector-native/native/wire"
 )
 
 // Pit is a per-board parameter block inside R_SEC_NEW.

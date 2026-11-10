@@ -3,8 +3,8 @@ package native
 import (
 	"time"
 
-	"github.com/kmlebedev/txmlconnector/native/model"
-	"github.com/kmlebedev/txmlconnector/native/records"
+	"github.com/kmlebedev/txmlconnector-native/native/model"
+	"github.com/kmlebedev/txmlconnector-native/native/records"
 )
 
 // News feed: R_NEWS 0x35 and R_NEWS_UPLOAD 0x36 are unsized records with

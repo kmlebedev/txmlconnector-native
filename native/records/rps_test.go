@@ -5,7 +5,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/kmlebedev/txmlconnector/native/records"
+	"github.com/kmlebedev/txmlconnector-native/native/records"
 )
 
 // TestRPSLayoutExplicitI: the RPS/REPO record/XML layouts are not recovered, so

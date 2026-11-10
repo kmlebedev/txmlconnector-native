@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/kmlebedev/txmlconnector/native/wire"
+	"github.com/kmlebedev/txmlconnector-native/native/wire"
 )
 
 // A request whose context is cancelled after it was written still gets its

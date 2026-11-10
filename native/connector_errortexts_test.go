@@ -4,8 +4,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/kmlebedev/txmlconnector/native/session"
-	"github.com/kmlebedev/txmlconnector/native/wire"
+	"github.com/kmlebedev/txmlconnector-native/native/session"
+	"github.com/kmlebedev/txmlconnector-native/native/wire"
 )
 
 // TestServerErrorTexts checks the DLL rendering of RQ_TRANSACT server codes

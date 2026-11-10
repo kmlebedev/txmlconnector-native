@@ -3,8 +3,8 @@ package records
 import (
 	"fmt"
 
-	"github.com/kmlebedev/txmlconnector/native/model"
-	"github.com/kmlebedev/txmlconnector/native/wire"
+	"github.com/kmlebedev/txmlconnector-native/native/model"
+	"github.com/kmlebedev/txmlconnector-native/native/wire"
 )
 
 // TagQuotes is R_QUOTES (0x07), the <quotes> order book feed of task 10.

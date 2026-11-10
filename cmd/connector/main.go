@@ -44,8 +44,8 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/kmlebedev/txmlconnector/cmd/connector/internal/dlllog"
-	"github.com/kmlebedev/txmlconnector/native"
+	"github.com/kmlebedev/txmlconnector-native/cmd/connector/internal/dlllog"
+	"github.com/kmlebedev/txmlconnector-native/native"
 )
 
 var defaultVersion = "6.47.2.26.4"

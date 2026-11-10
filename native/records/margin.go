@@ -3,7 +3,7 @@ package records
 import (
 	"fmt"
 
-	"github.com/kmlebedev/txmlconnector/native/wire"
+	"github.com/kmlebedev/txmlconnector-native/native/wire"
 )
 
 // TagSecMktPermit is R_SEC_MKT_PERMIT (0x0e): W secid, B val. The same record

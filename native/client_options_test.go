@@ -8,10 +8,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/kmlebedev/txmlconnector/native/model"
-	"github.com/kmlebedev/txmlconnector/native/records"
-	"github.com/kmlebedev/txmlconnector/native/session"
-	"github.com/kmlebedev/txmlconnector/native/wire"
+	"github.com/kmlebedev/txmlconnector-native/native/model"
+	"github.com/kmlebedev/txmlconnector-native/native/records"
+	"github.com/kmlebedev/txmlconnector-native/native/session"
+	"github.com/kmlebedev/txmlconnector-native/native/wire"
 )
 
 func optionFixture(t *testing.T, name string) []byte {

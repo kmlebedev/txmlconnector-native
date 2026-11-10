@@ -7,10 +7,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/kmlebedev/txmlconnector/native/internal/oracle"
-	"github.com/kmlebedev/txmlconnector/native/model"
-	"github.com/kmlebedev/txmlconnector/native/records"
-	"github.com/kmlebedev/txmlconnector/native/wire"
+	"github.com/kmlebedev/txmlconnector-native/native/internal/oracle"
+	"github.com/kmlebedev/txmlconnector-native/native/model"
+	"github.com/kmlebedev/txmlconnector-native/native/records"
+	"github.com/kmlebedev/txmlconnector-native/native/wire"
 )
 
 // TestTicksReplyParsed pins the D-format parser of the RQ_TICKS reply (the live

@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/kmlebedev/txmlconnector/native/model"
-	"github.com/kmlebedev/txmlconnector/native/wire"
+	"github.com/kmlebedev/txmlconnector-native/native/model"
+	"github.com/kmlebedev/txmlconnector-native/native/wire"
 )
 
 // TagTick is RQ_MAIN 0x5a TICK (S: ticks arrive as RQ_MAIN records, not RQ_TICKS).

@@ -1,8 +1,8 @@
 package native
 
 import (
-	"github.com/kmlebedev/txmlconnector/native/model"
-	"github.com/kmlebedev/txmlconnector/native/records"
+	"github.com/kmlebedev/txmlconnector-native/native/model"
+	"github.com/kmlebedev/txmlconnector-native/native/records"
 )
 
 // The margin-permission feed: R_SEC_MKT_PERMIT (0x0e) is consumed by the record

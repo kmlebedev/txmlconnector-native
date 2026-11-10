@@ -5,8 +5,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/kmlebedev/txmlconnector/native/model"
-	"github.com/kmlebedev/txmlconnector/native/wire"
+	"github.com/kmlebedev/txmlconnector-native/native/model"
+	"github.com/kmlebedev/txmlconnector-native/native/wire"
 )
 
 // TagQuotation is R_QUOTATION (0x06), the <quotations> feed of task 9.

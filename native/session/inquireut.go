@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/kmlebedev/txmlconnector/native/wire"
+	"github.com/kmlebedev/txmlconnector-native/native/wire"
 )
 
 // RqInquireUT is RQ_INQUIRE_UT, the margin template request (D:

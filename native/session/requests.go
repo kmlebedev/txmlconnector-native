@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/kmlebedev/txmlconnector/native/wire"
+	"github.com/kmlebedev/txmlconnector-native/native/wire"
 )
 
 // mainFullThreshold mirrors FUN_18038d7d0: when the packet size (65520) minus

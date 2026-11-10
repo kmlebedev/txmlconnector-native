@@ -4,7 +4,7 @@ syntax = "proto3";
 // published to NATS by native/natsout. No XML is involved.
 package transaq.marketdata.v1;
 
-option go_package = "github.com/kmlebedev/txmlconnector/proto/marketdata";
+option go_package = "github.com/kmlebedev/txmlconnector-native/proto/marketdata";
 
 enum Side {
   SIDE_UNSPECIFIED = 0;

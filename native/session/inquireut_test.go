@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/kmlebedev/txmlconnector/native/wire"
+	"github.com/kmlebedev/txmlconnector-native/native/wire"
 )
 
 // S (production 2026-11-05): category 18 asks "1200", then "1282fd0f" for the

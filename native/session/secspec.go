@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/kmlebedev/txmlconnector/native/wire"
+	"github.com/kmlebedev/txmlconnector-native/native/wire"
 )
 
 // SecSpecRequest builds RQ_SEC_SPEC (15): a plain list of W secids, no counter

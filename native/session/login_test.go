@@ -10,8 +10,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/kmlebedev/txmlconnector/native/cryptoprofile"
-	"github.com/kmlebedev/txmlconnector/native/wire"
+	"github.com/kmlebedev/txmlconnector-native/native/cryptoprofile"
+	"github.com/kmlebedev/txmlconnector-native/native/wire"
 )
 
 func unhex(t *testing.T, s string) []byte {

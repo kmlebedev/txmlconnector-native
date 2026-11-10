@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/kmlebedev/txmlconnector/native/wire"
+	"github.com/kmlebedev/txmlconnector-native/native/wire"
 )
 
 // Tick feed request types (PDF 3.19): RQ_SUBSCRIBE_TICKS toggles the feed,

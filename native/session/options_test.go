@@ -7,7 +7,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/kmlebedev/txmlconnector/native/wire"
+	"github.com/kmlebedev/txmlconnector-native/native/wire"
 )
 
 func readOptionsFixture(t *testing.T, name string) []byte {

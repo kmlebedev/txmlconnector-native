@@ -6,8 +6,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/kmlebedev/txmlconnector/native/session"
-	"github.com/kmlebedev/txmlconnector/native/wire"
+	"github.com/kmlebedev/txmlconnector-native/native/session"
+	"github.com/kmlebedev/txmlconnector-native/native/wire"
 )
 
 // TestNewsHeaderMatchDLL: the S 0x36 flags=1 header is rendered byte-exactly

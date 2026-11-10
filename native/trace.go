@@ -4,7 +4,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/kmlebedev/txmlconnector/native/session"
+	"github.com/kmlebedev/txmlconnector-native/native/session"
 )
 
 // TraceKind is a connection-lifecycle step of the Connector. The steps mirror

@@ -3,8 +3,8 @@ package records
 import (
 	"fmt"
 
-	"github.com/kmlebedev/txmlconnector/native/model"
-	"github.com/kmlebedev/txmlconnector/native/wire"
+	"github.com/kmlebedev/txmlconnector-native/native/model"
+	"github.com/kmlebedev/txmlconnector-native/native/wire"
 )
 
 // TagStopOrder is R_STOP (0x54, sized), the conditional/stop order record.

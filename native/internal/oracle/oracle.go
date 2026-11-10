@@ -18,8 +18,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/kmlebedev/txmlconnector/native/records"
-	"github.com/kmlebedev/txmlconnector/native/xmlcompat"
+	"github.com/kmlebedev/txmlconnector-native/native/records"
+	"github.com/kmlebedev/txmlconnector-native/native/xmlcompat"
 )
 
 // fixturesDir is native/records/testdata, resolved from this file so tests of

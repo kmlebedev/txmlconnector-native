@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/kmlebedev/txmlconnector/native/wire"
+	"github.com/kmlebedev/txmlconnector-native/native/wire"
 )
 
 // R_NEWS (0x35) and R_NEWS_UPLOAD (0x36) are unsized records with variable

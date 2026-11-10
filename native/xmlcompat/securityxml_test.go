@@ -6,9 +6,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/kmlebedev/txmlconnector/client/commands"
-	"github.com/kmlebedev/txmlconnector/native/model"
-	"github.com/kmlebedev/txmlconnector/native/records"
+	"github.com/kmlebedev/txmlconnector-native/commands"
+	"github.com/kmlebedev/txmlconnector-native/native/model"
+	"github.com/kmlebedev/txmlconnector-native/native/records"
 )
 
 // TestSecurityXMLBytes compares the hand-rolled <security> emitter with the

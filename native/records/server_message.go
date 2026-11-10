@@ -3,7 +3,7 @@ package records
 import (
 	"fmt"
 
-	"github.com/kmlebedev/txmlconnector/native/wire"
+	"github.com/kmlebedev/txmlconnector-native/native/wire"
 )
 
 // ServerMessage is one R_RES 0x0f body (RE-2 task-68): B trn_type, B trr_status,

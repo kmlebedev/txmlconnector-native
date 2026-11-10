@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"math/bits"
 
-	"github.com/kmlebedev/txmlconnector/native/wire"
+	"github.com/kmlebedev/txmlconnector-native/native/wire"
 )
 
 // RQ_MAIN record tags (dispatcher FUN_18038d7d0; the switch value is tag-1).

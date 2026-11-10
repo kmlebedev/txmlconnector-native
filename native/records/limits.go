@@ -3,8 +3,8 @@ package records
 import (
 	"fmt"
 
-	"github.com/kmlebedev/txmlconnector/native/model"
-	"github.com/kmlebedev/txmlconnector/native/wire"
+	"github.com/kmlebedev/txmlconnector-native/native/model"
+	"github.com/kmlebedev/txmlconnector-native/native/wire"
 )
 
 // ParseClientLimits decodes the RQ_CLIENT_LIMITS (43) reply (limits.md, D):

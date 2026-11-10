@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/kmlebedev/txmlconnector/native/wire"
+	"github.com/kmlebedev/txmlconnector-native/native/wire"
 )
 
 // History request types (PDF 3.7): RQ_HISTORY_EXT is the one the DLL sends live.

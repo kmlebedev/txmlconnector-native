@@ -7,7 +7,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/kmlebedev/txmlconnector/native/wire"
+	"github.com/kmlebedev/txmlconnector-native/native/wire"
 )
 
 // readSnapshotTail decodes the E07 end-of-load fixture: a single hex string of

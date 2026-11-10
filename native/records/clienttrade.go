@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/kmlebedev/txmlconnector/native/model"
-	"github.com/kmlebedev/txmlconnector/native/wire"
+	"github.com/kmlebedev/txmlconnector-native/native/model"
+	"github.com/kmlebedev/txmlconnector-native/native/wire"
 )
 
 // TagClientTrade is R_TRD (0x04), the client <trades> record (sized).

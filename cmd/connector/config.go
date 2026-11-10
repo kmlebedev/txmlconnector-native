@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/kmlebedev/txmlconnector/cmd/connector/internal/dlllog"
+	"github.com/kmlebedev/txmlconnector-native/cmd/connector/internal/dlllog"
 )
 
 // InitConfig is the <init log_path log_level use_minidump logfile_lifetime/> payload.

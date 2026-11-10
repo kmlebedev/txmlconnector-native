@@ -7,10 +7,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/kmlebedev/txmlconnector/native/model"
-	"github.com/kmlebedev/txmlconnector/native/session"
-	"github.com/kmlebedev/txmlconnector/native/testserver"
-	"github.com/kmlebedev/txmlconnector/native/wire"
+	"github.com/kmlebedev/txmlconnector-native/native/model"
+	"github.com/kmlebedev/txmlconnector-native/native/session"
+	"github.com/kmlebedev/txmlconnector-native/native/testserver"
+	"github.com/kmlebedev/txmlconnector-native/native/wire"
 )
 
 func transactConn(t *testing.T, srv *testserver.Server) (*session.Conn, context.Context) {

@@ -27,12 +27,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/kmlebedev/txmlconnector/client/commands"
-	"github.com/kmlebedev/txmlconnector/connector"
-	"github.com/kmlebedev/txmlconnector/native/model"
-	"github.com/kmlebedev/txmlconnector/native/records"
-	"github.com/kmlebedev/txmlconnector/native/session"
-	"github.com/kmlebedev/txmlconnector/native/xmlcompat"
+	"github.com/kmlebedev/txmlconnector-native/commands"
+	"github.com/kmlebedev/txmlconnector-native/connector"
+	"github.com/kmlebedev/txmlconnector-native/native/model"
+	"github.com/kmlebedev/txmlconnector-native/native/records"
+	"github.com/kmlebedev/txmlconnector-native/native/session"
+	"github.com/kmlebedev/txmlconnector-native/native/xmlcompat"
 )
 
 // DefaultVersion is reported by get_connector_version: the DLL version whose

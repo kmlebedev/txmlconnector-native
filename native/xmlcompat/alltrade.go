@@ -7,7 +7,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/kmlebedev/txmlconnector/native/model"
+	"github.com/kmlebedev/txmlconnector-native/native/model"
 )
 
 // tradeTimeLayout is the DLL <time> format; milliseconds are added when the

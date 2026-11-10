@@ -6,8 +6,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/kmlebedev/txmlconnector/native/records"
-	"github.com/kmlebedev/txmlconnector/native/wire"
+	"github.com/kmlebedev/txmlconnector-native/native/records"
+	"github.com/kmlebedev/txmlconnector-native/native/wire"
 )
 
 // TestTickMatchDLL: S tick arrives as RQ_MAIN 0x5a and renders the S <ticks>

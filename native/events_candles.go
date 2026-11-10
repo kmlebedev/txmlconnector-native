@@ -1,8 +1,8 @@
 package native
 
 import (
-	"github.com/kmlebedev/txmlconnector/native/model"
-	"github.com/kmlebedev/txmlconnector/native/records"
+	"github.com/kmlebedev/txmlconnector-native/native/model"
+	"github.com/kmlebedev/txmlconnector-native/native/records"
 )
 
 // gethistorydata candles: R_HISTORY records (0x09). The parts are collected by

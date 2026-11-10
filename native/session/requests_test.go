@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/kmlebedev/txmlconnector/native/wire"
+	"github.com/kmlebedev/txmlconnector-native/native/wire"
 )
 
 // RQ_TIME reply payload from the Finam demo server (sent unencrypted, flags

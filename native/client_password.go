@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/kmlebedev/txmlconnector/native/session"
+	"github.com/kmlebedev/txmlconnector-native/native/session"
 )
 
 // DLL local validation texts of change_pass (changepass.md D+O, verbatim).

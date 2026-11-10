@@ -7,7 +7,7 @@ import (
 	"net"
 	"time"
 
-	"github.com/kmlebedev/txmlconnector/native/wire"
+	"github.com/kmlebedev/txmlconnector-native/native/wire"
 )
 
 // ErrNotSameServer reports a reconnect to a server with another SID (-0xe).

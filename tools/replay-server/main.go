@@ -29,8 +29,8 @@ import (
 	"sync"
 	"syscall"
 
-	"github.com/kmlebedev/txmlconnector/native/replay"
-	"github.com/kmlebedev/txmlconnector/native/session"
+	"github.com/kmlebedev/txmlconnector-native/native/replay"
+	"github.com/kmlebedev/txmlconnector-native/native/session"
 )
 
 func main() {

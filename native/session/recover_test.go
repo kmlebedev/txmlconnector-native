@@ -9,7 +9,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/kmlebedev/txmlconnector/native/wire"
+	"github.com/kmlebedev/txmlconnector-native/native/wire"
 )
 
 // The RQ_RELOGIN payload is Z12: the login up to 12 bytes plus NUL, sent on the

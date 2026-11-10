@@ -5,8 +5,8 @@ import (
 
 	"golang.org/x/text/encoding/charmap"
 
-	"github.com/kmlebedev/txmlconnector/native/model"
-	"github.com/kmlebedev/txmlconnector/native/wire"
+	"github.com/kmlebedev/txmlconnector-native/native/model"
+	"github.com/kmlebedev/txmlconnector-native/native/wire"
 )
 
 // cp1251 converts a server string to UTF-8.

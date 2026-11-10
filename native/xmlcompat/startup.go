@@ -9,8 +9,8 @@ import (
 	"encoding/xml"
 	"slices"
 
-	"github.com/kmlebedev/txmlconnector/client/commands"
-	"github.com/kmlebedev/txmlconnector/native/model"
+	"github.com/kmlebedev/txmlconnector-native/commands"
+	"github.com/kmlebedev/txmlconnector-native/native/model"
 )
 
 // MarketsXML returns <markets> as the DLL emits it: ordered by id.

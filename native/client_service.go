@@ -5,7 +5,7 @@ import (
 	"errors"
 	"time"
 
-	"github.com/kmlebedev/txmlconnector/native/model"
+	"github.com/kmlebedev/txmlconnector-native/native/model"
 )
 
 // ServerTimeDifference is the DLL's get_servtime_difference: it sends RQ_TIME

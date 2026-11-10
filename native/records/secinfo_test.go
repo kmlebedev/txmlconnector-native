@@ -8,10 +8,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/kmlebedev/txmlconnector/native/internal/oracle"
-	"github.com/kmlebedev/txmlconnector/native/model"
-	"github.com/kmlebedev/txmlconnector/native/records"
-	"github.com/kmlebedev/txmlconnector/native/xmlcompat"
+	"github.com/kmlebedev/txmlconnector-native/native/internal/oracle"
+	"github.com/kmlebedev/txmlconnector-native/native/model"
+	"github.com/kmlebedev/txmlconnector-native/native/records"
+	"github.com/kmlebedev/txmlconnector-native/native/xmlcompat"
 )
 
 // readGz loads a fixture of native/testdata (gzip of hex or text).

@@ -1,8 +1,8 @@
 package native
 
 import (
-	"github.com/kmlebedev/txmlconnector/native/model"
-	"github.com/kmlebedev/txmlconnector/native/records"
+	"github.com/kmlebedev/txmlconnector-native/native/model"
+	"github.com/kmlebedev/txmlconnector-native/native/records"
 )
 
 // <sec_info_upd> from R_SEC_PARAM (tag 0x5e).

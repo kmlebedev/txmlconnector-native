@@ -3,8 +3,8 @@ package records_test
 import (
 	"testing"
 
-	"github.com/kmlebedev/txmlconnector/native/records"
-	"github.com/kmlebedev/txmlconnector/native/wire"
+	"github.com/kmlebedev/txmlconnector-native/native/records"
+	"github.com/kmlebedev/txmlconnector-native/native/wire"
 )
 
 func familyRecord(secID uint16, code string, first, second int64) []byte {

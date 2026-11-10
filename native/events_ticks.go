@@ -3,8 +3,8 @@ package native
 import (
 	"time"
 
-	"github.com/kmlebedev/txmlconnector/native/model"
-	"github.com/kmlebedev/txmlconnector/native/records"
+	"github.com/kmlebedev/txmlconnector-native/native/model"
+	"github.com/kmlebedev/txmlconnector-native/native/records"
 )
 
 // Ticks are RQ_MAIN 0x5a records (S: no RQ_TICKS polling on production).

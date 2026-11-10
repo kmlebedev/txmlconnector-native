@@ -3,8 +3,8 @@ package records_test
 import (
 	"testing"
 
-	"github.com/kmlebedev/txmlconnector/native/records"
-	"github.com/kmlebedev/txmlconnector/native/wire"
+	"github.com/kmlebedev/txmlconnector-native/native/records"
+	"github.com/kmlebedev/txmlconnector-native/native/wire"
 )
 
 // TestParseFondPortfolioPreliminary pins the preliminary D layout of the

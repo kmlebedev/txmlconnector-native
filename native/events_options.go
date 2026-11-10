@@ -3,8 +3,8 @@ package native
 import (
 	"sort"
 
-	"github.com/kmlebedev/txmlconnector/native/model"
-	"github.com/kmlebedev/txmlconnector/native/records"
+	"github.com/kmlebedev/txmlconnector-native/native/model"
+	"github.com/kmlebedev/txmlconnector-native/native/records"
 )
 
 // Option RQ_MAIN records (options.md, S on production 2026-11-05): the DLL

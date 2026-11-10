@@ -17,8 +17,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/kmlebedev/txmlconnector/connector"
-	"github.com/kmlebedev/txmlconnector/native"
+	"github.com/kmlebedev/txmlconnector-native/connector"
+	"github.com/kmlebedev/txmlconnector-native/native"
 )
 
 func main() {

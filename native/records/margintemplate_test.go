@@ -3,8 +3,8 @@ package records_test
 import (
 	"testing"
 
-	"github.com/kmlebedev/txmlconnector/native/model"
-	"github.com/kmlebedev/txmlconnector/native/records"
+	"github.com/kmlebedev/txmlconnector-native/native/model"
+	"github.com/kmlebedev/txmlconnector-native/native/records"
 )
 
 // A trimmed template in the production layout (S, RQ_INQUIRE_UT 2026-11-05;

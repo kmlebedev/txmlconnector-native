@@ -3,7 +3,7 @@ package records
 import (
 	"fmt"
 
-	"github.com/kmlebedev/txmlconnector/native/wire"
+	"github.com/kmlebedev/txmlconnector-native/native/wire"
 )
 
 // Remaining RQ_MAIN records of task 12. None of them produces XML callbacks

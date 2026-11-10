@@ -16,8 +16,8 @@ import (
 	"syscall"
 	"time"
 
-	native "github.com/kmlebedev/txmlconnector/native"
-	"github.com/kmlebedev/txmlconnector/native/model"
+	native "github.com/kmlebedev/txmlconnector-native/native"
+	"github.com/kmlebedev/txmlconnector-native/native/model"
 )
 
 // defaultSymbols are 20 TQBR securities present in the demo catalog fixture

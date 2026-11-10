@@ -3,7 +3,7 @@ package native
 import (
 	"fmt"
 
-	"github.com/kmlebedev/txmlconnector/native/model"
+	"github.com/kmlebedev/txmlconnector-native/native/model"
 )
 
 // decoder turns one RQ_MAIN record body into events.

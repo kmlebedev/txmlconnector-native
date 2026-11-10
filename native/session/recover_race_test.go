@@ -6,8 +6,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/kmlebedev/txmlconnector/native/session"
-	"github.com/kmlebedev/txmlconnector/native/testserver"
+	"github.com/kmlebedev/txmlconnector-native/native/session"
+	"github.com/kmlebedev/txmlconnector-native/native/testserver"
 )
 
 // TestRestoreCloseRace is the P2-2 regression: Close must read the socket under

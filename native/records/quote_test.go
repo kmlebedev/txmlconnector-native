@@ -4,10 +4,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/kmlebedev/txmlconnector/native/internal/oracle"
-	"github.com/kmlebedev/txmlconnector/native/records"
-	"github.com/kmlebedev/txmlconnector/native/wire"
-	"github.com/kmlebedev/txmlconnector/native/xmlcompat"
+	"github.com/kmlebedev/txmlconnector-native/native/internal/oracle"
+	"github.com/kmlebedev/txmlconnector-native/native/records"
+	"github.com/kmlebedev/txmlconnector-native/native/wire"
+	"github.com/kmlebedev/txmlconnector-native/native/xmlcompat"
 )
 
 // TestQuotesMatchDLL renders the two R_QUOTES records of the r10 capture and

@@ -1,8 +1,8 @@
 package native
 
 import (
-	"github.com/kmlebedev/txmlconnector/native/model"
-	"github.com/kmlebedev/txmlconnector/native/records"
+	"github.com/kmlebedev/txmlconnector-native/native/model"
+	"github.com/kmlebedev/txmlconnector-native/native/records"
 )
 
 // The <orders> feed: R_ORD_NEW (0x03) creates an order, R_ORD_MODIFY (0x10)

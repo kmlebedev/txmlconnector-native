@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/kmlebedev/txmlconnector/native/model"
-	"github.com/kmlebedev/txmlconnector/native/xmlcompat"
+	"github.com/kmlebedev/txmlconnector-native/native/model"
+	"github.com/kmlebedev/txmlconnector-native/native/xmlcompat"
 )
 
 // The T23 commands are a LOCAL render: no RQ is sent (margin.md, D/O).

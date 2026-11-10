@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/kmlebedev/txmlconnector/native/cryptoprofile"
+	"github.com/kmlebedev/txmlconnector-native/native/cryptoprofile"
 )
 
 const (
