@@ -1,7 +1,7 @@
 package model
 
 // Dictionary types decoded from the RQ_STARTUP reply. They are plain data: the
-// XML representation of the callbacks lives in xmlcompat and client/commands.
+// XML representation of the callbacks lives in xmlcompat and commands.
 
 // Market is one record of the markets section (FUN_1803953e0 "ReadMarkets").
 type Market struct {

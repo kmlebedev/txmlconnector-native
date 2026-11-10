@@ -1,0 +1,39 @@
+name: Go Test
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+    types: [ opened, synchronize, reopened ]
+
+jobs:
+  test:
+    name: gofmt, vet, race tests, cross-builds
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-go@v5
+        with:
+          go-version-file: go.mod
+          cache: true
+
+      - name: gofmt
+        run: make fmt-check
+
+      - name: vet
+        run: go vet ./...
+
+      - name: race tests
+        run: go test -race -coverprofile=coverage.txt ./...
+
+      - name: cross-builds (CGO_ENABLED=0)
+        run: make cross
+
+      - name: Python RE model self-test
+        run: python3 tools/re/py/selftest.py
+
+      - name: Reference DLL is intact
+        run: |
+          echo "a197e2625e53c0df453687ae1b20ef2ae1a05e034cd20c424a7014b0c9726342  txmlconnector64-6.47.2.26.4.dll" | sha256sum -c -

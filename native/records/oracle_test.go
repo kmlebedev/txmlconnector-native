@@ -1,7 +1,7 @@
 // Package records_test holds the oracle tests: they decode the binary fixtures
 // with records and compare the result against the XML the vendor DLL emitted.
 // The external test package keeps native/records itself free of the XML layer
-// and of client/commands.
+// and of commands.
 package records_test
 
 import (

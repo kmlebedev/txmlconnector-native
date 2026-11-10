@@ -1,5 +1,5 @@
 // Package xmlcompat renders the records decoded by native/records as the XML
-// messages the vendor DLL emits to callbacks (see client/commands), so a
+// messages the vendor DLL emits to callbacks (see commands), so a
 // native backend can serve existing XML consumers unchanged. It is the only
 // package that knows the DLL's XML shape; binary decoding lives in
 // native/records, the domain types in native/model.

@@ -50,7 +50,7 @@ write-scope и blocked_by, найми исполнителей и доведи �
 **Исполнитель (go-engineer):**
 
 ```
-Ты go-engineer команды DeepSeek Harness в /Users/whitefox/GolandProjects/txmlconnector.
+Ты go-engineer команды DeepSeek Harness в /Users/whitefox/GolandProjects/txmlconnector-native.
 Прочитай AGENTS.md и .kimi-code/skills/go-engineer/SKILL.md целиком. Твоя карточка: <task-id>, задача
 <N> плана docs/superpowers/plans/2026-11-04-native-transaq-client.md (прочитай её целиком, включая
 Review Focus и Global Constraints). Работай по шагам плана: падающий тест → реализация → проверки §7
@@ -61,7 +61,7 @@ AGENTS.md → commit с сообщением из плана. Не выходи 
 **Реверс-инженер (RE-engineer):**
 
 ```
-Ты RE-engineer команды DeepSeek Harness в /Users/whitefox/GolandProjects/txmlconnector.
+Ты RE-engineer команды DeepSeek Harness в /Users/whitefox/GolandProjects/txmlconnector-native.
 Прочитай AGENTS.md, tools/re/README.md и .claude/skills/reverse-engineering/SKILL.md. Твоя карточка:
 <task-id>, задача <N> плана. Выполни RE-шаги из задачи: <RE-1/RE-2/RE-3>. Каждое утверждение — с
 координатой (адрес функции, байты payload, строка лога) и статусом S/O/D/I в docs/protocol/<файл>.md.
@@ -134,7 +134,7 @@ write-scope с карточками и фактические файлы с пл
   Он создаёт **одну** ветку+checkout за вызов и меняет cwd сессии; автоматического «worktree на каждый
   шаг» нет — Lead (или исполнитель) вызывает его на задачу.
 - По умолчанию checkout: `<корень checkout>/.agents/worktrees/<branch>` (проверено: вернулся
-  `/Users/whitefox/GolandProjects/txmlconnector/.agents/worktrees/<name>`, `baseCommit` = HEAD).
+  `/Users/whitefox/GolandProjects/txmlconnector-native/.agents/worktrees/<name>`, `baseCommit` = HEAD).
 - Чтобы получить привычный `.worktrees`, нужен патч профиля DSH `~/.dsh/profiles/desktop/cordis.patch.yml`
   (вне репозитория, с согласия пользователя, затем перезапуск DSH):
 
@@ -146,7 +146,7 @@ write-scope с карточками и фактические файлы с пл
   ```
 
   Оба пула (`.agents/`, `.worktrees/`) добавлены в `.gitignore`.
-- Вернуться в корень: `working_directory({"cd":"/Users/whitefox/GolandProjects/txmlconnector"})`.
+- Вернуться в корень: `working_directory({"cd":"/Users/whitefox/GolandProjects/txmlconnector-native"})`.
   Следующий worktree создавать из корня, не изнутри worktree (иначе пул вложится в worktree).
 - Worktree от `HEAD` не содержит незакоммиченных `AGENTS.md`/`docs/deepseek/*`, и DSH снимает
   инструкции в таком worktree (проверено). Перед worktree-режимом подготовку нужно закоммитить.

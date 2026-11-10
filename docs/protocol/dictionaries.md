@@ -2,7 +2,7 @@
 
 Дата: 3 ноября 2026. Источник: `txmlconnector64-6.47.2.26.4.dll`, демо-сервер Finam. Обозначения статусов те же, что в [connect.md](connect.md): **S** — сверено с XML-колбэками DLL на демо-сервере, **D** — прочитано в декомпиляторе, **I** — вывод.
 
-Реализация: [`native/xmlcompat`](../../native/xmlcompat). XML строится в структуры [`client/commands`](../../client/commands/main.go), которые уже используют клиенты.
+Реализация: [`native/xmlcompat`](../../native/xmlcompat). XML строится в структуры [`commands`](../../commands/main.go), которые уже используют клиенты.
 
 ## Методика
 

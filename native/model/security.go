@@ -2,7 +2,7 @@ package model
 
 // Security is the typed form of one <security> message: the R_SEC_NEW record
 // with the fields the DLL derives from the RQ_STARTUP dictionaries. The XML
-// representation stays in client/commands; the emitter is in xmlcompat.
+// representation stays in commands; the emitter is in xmlcompat.
 type Security struct {
 	SecID      int
 	Active     bool
